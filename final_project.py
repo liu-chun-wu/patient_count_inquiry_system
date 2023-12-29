@@ -24,8 +24,8 @@ from selenium.webdriver.support.ui import Select
 app = Flask(__name__)
 
 configuration = Configuration(
-    access_token="Lz9OkM8NsomlUL9XEO6RJ8BJt73IzUhoPZoQotdfTnA6mOwlFvGCosa7d00CGU92rlSd5w9dBd6Vistp4JmHw1Y1pjkHCHrn7FTxwbePvm7Gob5xamL/i/8707AKgHj3OUxsj+JmL5PwpW8QljusUQdB04t89/1O/w1cDnyilFU=")
-handler = WebhookHandler("b86924085bfea23f189357ea60ed1281")
+    access_token="")
+handler = WebhookHandler("")
 
 
 @app.route("/callback", methods=["POST"])
