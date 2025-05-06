@@ -1,4 +1,4 @@
-# 🏥 門診人數查詢系統｜LINE Bot + Web Crawling + Ngrok
+# 🏥 門診人數查詢系統｜LINE Bot + Flask + Selenium
 
 一個互動式的 LINE Bot 系統，讓使用者能透過 LINE 介面查詢指定診所的門診資訊。後端自動爬取官方網站的即時資料並回傳給使用者。本專案以 Ngrok 作為測試環境的暫時伺服器。
 
